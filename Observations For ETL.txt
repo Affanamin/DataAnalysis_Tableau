@@ -1,0 +1,5 @@
+1. We donot have zones in market table in last 2 records. So we need to delete them
+2. We need to remove all sales amount less than 0 in transactions table.
+3. We need to convert USD into INR.
+4. We need to remove duplicate records
+5. We need to remove INR values having no "/r" in the end.
