@@ -2,7 +2,8 @@
 
 ## Setup mysql through given link
 
-Just follow simple steps shown in given video to install mysql on your system https://www.youtube.com/watch?v=WuBcTJnIuzo
+Just follow simple steps shown in given video to install mysql on your system 
+https://www.youtube.com/watch?v=WuBcTJnIuzo
 
 SQL database dump is in db_dump.sql file above. Download db_dump.sql file to your system and import it as per instructions given in the tutorial video.
 
