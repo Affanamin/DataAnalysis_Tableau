@@ -12,12 +12,20 @@ SQL database dump is in db_dump.sql file above. Download db_dump.sql file to you
 
 1. Show all customer records
 
-<p> SELECT * FROM customers; </p>
+  `SELECT * FROM customers;`
 
-Show total number of customers
+2. Show total number of customers
 
-Show transactions for Chennai market (market code for chennai is Mark001
+SELECT count(*) FROM customers;
 
-Show distrinct product codes that were sold in chennai
+3. Show transactions for Chennai market (market code for chennai is Mark001)
 
-Show transactions where currency is US dollars
+SELECT * FROM transactions where market_code='Mark001'
+
+4. Show distrinct product codes that were sold in chennai
+
+SELECT distinct product_code FROM transactions where market_code='Mark001';
+
+5. Show transactions where currency is US dollars
+
+SELECT * from transactions where currency="USD"
